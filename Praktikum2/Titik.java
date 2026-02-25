@@ -28,4 +28,16 @@ public class Titik {
     public void tampil() {
         System.out.println("(" + absis + ", " + ordinat + ")");
     }
-}
+    
+    public void geser(double x, double y){
+        absis = absis + x;
+        ordinat = ordinat + y;
+    }
+
+    public void Refleksi(){
+        ordinat = -ordinat;
+    }
+
+ }
+
+

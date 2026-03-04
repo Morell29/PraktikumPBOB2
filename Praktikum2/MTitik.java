@@ -5,11 +5,11 @@ public class MTitik {
         Titik T1 = new Titik();
         T1.setAbsis(10);
         T1.setOrdinat(10);
-        T1.tampil();
-        T1.Refleksi();
-        T1.tampil();
+        T1.printTitik();
+        T1.RefleksiX();
+        T1.printTitik();
        
-
+        
     }
 }
 
